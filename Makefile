@@ -29,7 +29,7 @@ output/hashes.txt: output/database.sqlite
 hashes: output/hashes.txt
 
 release: output/database.sqlite output/hashes.txt
-	zip -r -X output/open-food-facts-release-`date -u +'%Y-%m-%d-%H-%M-%S'` output/*
+	zip -r -X output/first-gop-debate-twitter-sentiment-release-`date -u +'%Y-%m-%d-%H-%M-%S'` output/*
 
 all: csv db hashes release
 
